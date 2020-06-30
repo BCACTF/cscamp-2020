@@ -1,0 +1,9 @@
+Problem name: numbers
+Problem Description: Someone left a note with numbers on our desk and I think it's a secret message! Can you decode it for us? Here's the message: 
+Flag: camp{numbers_are_cool}
+Points: 50
+Category: Cryptography
+Hints: Google's really useful when trying to solve these problems! Try googling “A1Z26”.
+Files to download: note.png
+Name: Sarah & Penelope
+Write-Up: This is an alphanumeric code where each number represents a letter (i.e. 1 → a, 26 → z). Simply enter the message into an A1Z26 cipher decoder and you have the flag.
