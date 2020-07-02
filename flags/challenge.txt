@@ -1,0 +1,9 @@
+Problem name: flags
+Problem Description: Psst. Can’t have Penelope knowing about this challenge. She happens to be a flag enthusiast, and she sent me this message with a bunch of flags. I’m not too sure what kind of flags they are. Help me out T~T Please translate this message for me ASAP. And remember to stay quiet about it!
+Flag: camp{NOW_YOU_KNOW_1N73RN47ION4L_FL4G5}
+Points: 150
+Category: Cryptography
+Hints: Have you tried solving the ‘locks and keys’ challenge? Perhaps you can find the correct flag code using a hint from that challenge.
+Files to download: flags.png
+Name: Sarah & Penel
+Write-Up: Use the international flag code to decode the message.
