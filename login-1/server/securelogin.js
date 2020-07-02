@@ -10,7 +10,7 @@ window.addEventListener("load", _ => {
         let password = passwordField.value;
 
         // The Core™ of Our™ Secure™ Login™ System™
-        if (username === "admin" && password === "thisisaverysecurepasswordhahaaaaaa") {
+        if (username === "admin" && password === "{INSERT PASSWORD HERE}") {
             alertBox.innerText = "Logged in. Fetching flag...";
             alertBox.style.display = "block";
 
