@@ -22,3 +22,14 @@ None.
 ## Deployment
 Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in the following environment variables:
 * `FLAG` - the flag
+
+## Solution
+1. Open `securelogin.js` in the web inspector.
+2. Find the line checking for a hardcoded username and password:
+   ```javascript
+   if (username === "admin" && password === "thisisaverysecurepasswordhahaaaaaa") {
+   ```
+3. Copy the password into the login field. The flag should appear above the username field in a box.
+
+## Author
+Anthony Li
