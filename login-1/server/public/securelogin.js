@@ -33,6 +33,9 @@ window.addEventListener("load", _ => {
 });
 
 function fetchFlag(username, password, alertBox) {
+    // Send credentials to the server to ensure a valid solve
+    // We get the flag from the server so the problem isn't
+    // *that* easy
     fetch("/flag", {
         method: "POST",
         headers: {
