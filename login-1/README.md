@@ -23,6 +23,7 @@ None.
 Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in the following environment variables:
 * `LOGIN1_FLAG` - the flag
 * `LOGIN1_PASSWORD` - the password for the login form
+* `LOGIN1_PORT` - desired port to listen to
 
 ## Solution
 1. Open `securelogin.js` in the web inspector.

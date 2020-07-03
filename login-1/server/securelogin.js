@@ -32,6 +32,8 @@ window.addEventListener("load", _ => {
     passwordField.addEventListener("input", e => e.target.setCustomValidity(""));
 });
 
+// This function is not relevant to the Secure™ Login™ System™
+// (we don't need functions, we're already Secure™!)
 function fetchFlag(username, password, alertBox) {
     // Send credentials to the server to ensure a valid solve
     // We get the flag from the server so the problem isn't
