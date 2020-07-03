@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "env": {
+        "LOGIN1_FLAG": "@login1-flag",
+        "LOGIN1_PASSWORD": "@login1-password"
+    },
+    "builds": [
+        {"src": "index.html", "use": "@now/static"},
+        {"src": "securelogin.js", "use": "@now/static"},
+        {"src": "serverless.js", "use": "@now/node"}
+    ],
+    "routes": [
+        {"src": "/", "methods": ["GET"], "dest": "index.html"},
+        {"src": "/securelogin.js", "methods": ["GET"], "dest": "serverless.js"},
+        {"src": "/flag", "methods": ["POST"], "dest": "serverless.js"}
+    ]
+}
