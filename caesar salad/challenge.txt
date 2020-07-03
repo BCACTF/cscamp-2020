@@ -1,0 +1,9 @@
+Problem name: caesar salad
+Problem Description: I heard Caesar loves salad... Enough to the point where they locked up all the salads with a password. It’s not just a normal password; after all, it’s for Caesar.
+Flag: camp{dO_YoU_lIKe_sALaD}
+Points: 50
+Category: Cryptography
+Hints: Psst. Ever heard of a cipher? Don’t forget it’s for Caesar ;)
+Files to download: password.txt
+Name: Sarah & Penelope
+Write-Up: Take the given password and put it into a brute force Caesar Cipher decoder (or just spam the caesar cipher until you get it right). Shift is 7.
