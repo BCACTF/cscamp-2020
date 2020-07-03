@@ -1,0 +1,11 @@
+Problem name: image
+Problem Description: Penelope texted me this image but I can’t help but think there’s something more to it. I tried looking at the image but I don’t see anything wrong with it. Surely Penelope wouldn’t just send me a picture of a flower…
+Flag: camp{u5E_7Ex7_eD170rS!}
+Points: 50
+Category: Forensics
+Hint 1: I looked at the image but I couldn’t find anything. Perhaps there’s something inside the image?
+Hint 2: Try opening the image in notepad ;)
+Hint 3: Still don’t see it? The flag format is the same as usual (camp{}) so you can still use ctrl+f 
+Files to download: 
+Name: Sarah & Penel
+Write-Up: Open the image with Notepad and use ctrl + f with the keyword “camp” to find the flag (it also happens to be at the bottom of the file)
