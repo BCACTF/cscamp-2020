@@ -50,7 +50,7 @@ function fetchFlag(username, password, alertBox) {
     }).then(response => {
         return response.json();
     }).then(data => {
-        alertBox.innerText = data.flag;
+        alertBox.innerHTML = data.flag;
     }).catch(err => {
         alertBox.innerText = "You logged in, but an error occurred while fetching the flag. Check your Internet connection or contact CS Camp staff.";
         console.error(err);
