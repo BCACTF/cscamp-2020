@@ -1,0 +1,9 @@
+Problem name: jeremy-inspector-blog
+Problem Description: Hey this is my blog where I report my findings as an inspector feel free to look at it!
+Flag: camp{j3remy_isB3st_w3BD3v}
+Points: 50
+Category: Webex
+Hint 1: What does Inspect Element do again?
+Files to download: index.html
+Name: Jeremy
+Write-Up: Inspect Element
