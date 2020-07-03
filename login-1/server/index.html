@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Secure™ Login™</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    </head>
+    <body class="w-100 h-100 bg-dark">
+        <form id="secure-login" class="container my-5 bg-white rounded py-3">
+            <h1 class="text-center mb-3">Secure™ Login™</h1>
+            <div class="alert alert-secondary" style="display: none;" id="alert-box"></div>
+            <noscript><div class="alert alert-danger">This problem requires JavaScript.</div></noscript>
+            <input type="text" class="form-control mb-3" id="username" placeholder="Username" required />
+            <input type="password" class="form-control mb-3" id="password" placeholder="Password" required />
+            <div class="text-center">
+                <input type="submit" class="btn btn-primary text-center" value="Log in" />
+            </div>
+        </form>
+        <script src="securelogin.js"></script>
+    </body>
+</html>
