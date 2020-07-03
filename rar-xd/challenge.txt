@@ -1,0 +1,10 @@
+Problem name: RAR XD
+Problem Description: Devin’s virtual cat coughed this up but it’s covered in something.
+Flag: camp{g0774_L0vE_7Ho5E_Z1PpErZ}
+Points: 150
+Category: Forensics
+Hint 1: Hmmm, if only there were a way to undo this rar file.
+Hint 2: If undo is the reverse of do, does that make unrar the reverse of rar?
+Files to download: file.rar
+Name: Sarah & Penel
+Write-Up: The first unrar online website lets you unrar the file and view the flag.txt file inside it
