@@ -6,6 +6,7 @@ Category: Cryptography
 Hint 1: Colors can be more than just ROY G BIV.  Maybe the name of the challenge will give you a clue
 Hint 2: Ever heard of a color picker?
 Hint 3: Hex isn’t very readable.  Maybe we should revisit our old friend--a Standard Code for Information Interchange
+Hint 4: Ignore the null byte ("00") at the end.
 Files to download: colorfulPoster.png
 Name: Sarah & Penel
 Write-Up: In order from left to right, use a color picker to find the hex values of each color and translate to ASCII. Simply put together the pieces (in the same order) and you have the flag.
