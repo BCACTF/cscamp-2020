@@ -12,9 +12,10 @@ int main(void)
 
     puts("Hey! How are ya?");
     gets(input);
+    puts("Understandable, have a nice day.");
 
     if (check != 0) {
-        puts("Understandable, have a nice day.");
+        // Secret shell, users shouldn't be able to access this.
         system("/bin/sh");
     }
 }
