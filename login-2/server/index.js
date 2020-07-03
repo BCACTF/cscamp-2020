@@ -10,6 +10,17 @@ const template = compile(readFileSync(join(__dirname, "index.hbs"), "utf-8"));
 app.use(async ctx => {
     if (ctx.url === "/") {
         let data = {};
+
+        if (ctx.method === "POST") {
+            try {
+                data.alert = {color: "warning", content: "Incorrect username or password."};
+            } catch (e) {
+                console.log(e);
+                ctx.status = 500;
+                data.alert = {color: "danger", content: "An internal server error occurred. Please contact CS Camp staff."};
+            }
+        }
+
         ctx.type = "text/html";
         ctx.body = template(data);
     } else {

@@ -8,6 +8,9 @@
     <body class="w-100 h-100 bg-dark">
         <form method="post" class="container my-5 bg-white rounded py-3">
             <h1 class="text-center mb-3">Very™ Secure™ Login™</h1>
+            {{#if alert}}
+            <div class="alert alert-{{alert.color}}">{{alert.content}}</div>
+            {{/if}}
             <input type="text" name="username" class="form-control mb-3" placeholder="Username" required />
             <input type="password" name="password" class="form-control mb-3" placeholder="Password" required />
             <div class="text-center">
