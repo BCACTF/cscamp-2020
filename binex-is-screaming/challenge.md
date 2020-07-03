@@ -23,7 +23,7 @@ Binary Exploitation
 * It might not work if you just send one extra character; try a decent bit more than that.
 
 ## Compilation
-* `gcc src.c -o binex-is-screaming`
+* `gcc src.c -o binex-is-screaming -fno-stack-protector`
 
 ## Files
 * `src.c`

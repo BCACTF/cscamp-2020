@@ -20,7 +20,7 @@ Binary Exploitation
 * You would think that `0x12345678` is stored as `0x12345678`, but no! Sometimes, it's stored as `0x78563412`! Look up [endianness](https://en.wikipedia.org/wiki/Endianness).
 
 ## Compilation
-* `gcc src.c -o controlled-screaming`
+* `gcc src.c -o controlled-screaming -fno-stack-protector`
 
 ## Files
 * `src.c`
