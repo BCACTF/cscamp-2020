@@ -1,5 +1,5 @@
 Problem name: binary
-Problem Description: We got a message from aliens last night, but they seem to only speak in 0’s and 1’s.  We need an interpreter fast XOR they’ll eat us.
+Problem Description: We got a message from aliens last night, but they seem to only speak in 0’s and 1’s. We need an interpreter fast XOR they’ll eat us.
 Flag: camp{nom_nom}
 Points: 100
 Category: Cryptography
