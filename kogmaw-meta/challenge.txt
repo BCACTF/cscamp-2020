@@ -1,0 +1,10 @@
+Problem name: kogmaw-meta
+Problem Description: I can't believe that AP KogMaw is now in the League of Legends meta. A Riot Gamers dev hid a flag inside this image can you help me find it.
+Flag: camp{iLikeAPKogMaw}
+Points: 100
+Category: Forensics
+Hint 1: What's exif?
+Hint 2: What's meta have to do with an image?
+Files to download: KogMaw_0.jpg
+Name: Jeremy
+Write-Up: View the image properties and details or use an online meta data viewer
