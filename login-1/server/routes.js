@@ -40,7 +40,7 @@ module.exports = {
 
         if (username === "admin" && password === desiredPassword) {
             console.log("/flag: Success");
-            res.json({flag: process.env.LOGIN1_FLAG || "This problem is miconfigured. Please contact CS Camp staff."})
+            res.json({flag: process.env.LOGIN1_FLAG ? `<strong class="bg-success text-white">You got a flag!</strong> <code>${process.env.LOGIN1_FLAG}</code>` : "This problem is miconfigured. Please contact CS Camp staff."})
         } else {
             console.log("/flag: Incorrect credentials");
             res.status(401);
