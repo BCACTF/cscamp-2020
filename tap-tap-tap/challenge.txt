@@ -1,0 +1,11 @@
+Problem name: tap tap tap
+Problem Description: Sarah’s on vacation in New Jersey (a.k.a home), and she just sent me a postcard.  However, she seems to have written her message in some sort of code and I can’t figure it out T.T
+Flag: camp{SIKE_ITS_NOT_BINARY}
+Points: 150
+Category: Cryptography
+Hint 1: Challenge names are always very, VERY important!  Perhaps you should look into tapping some more...
+Hint 2: 0’s and 1’s don’t always mean binary.  Maybe these numbers stand for something else
+Hint 3: Submit the flag in all caps, ie. "camp{ALL_CAPS_LIKE_THIS}"
+Files to download: code.txt
+Name: Sarah & Penel
+Write-Up: Put the encoded message into a morse code translator. The 0's are short (.) while the 1's are long (-).
