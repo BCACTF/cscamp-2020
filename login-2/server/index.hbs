@@ -4,9 +4,17 @@
         <meta charset="utf-8">
         <title>Very™ Secure™ Login™</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <style>
+            h1 {
+                background-image: linear-gradient(135deg, red, orange, yellow, green, blue, purple);
+                font-weight: 800;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        </style>
     </head>
     <body class="w-100 h-100 bg-dark">
-        <form method="post" class="container my-5 bg-white rounded py-3">
+        <form method="post" class="container my-5 bg-white rounded py-3 shadow">
             <h1 class="text-center mb-3">Very™ Secure™ Login™</h1>
             {{#if alert}}
             <div class="alert alert-{{alert.color}}">{{alert.content}}</div>
