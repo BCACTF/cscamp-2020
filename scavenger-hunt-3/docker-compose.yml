@@ -1,0 +1,7 @@
+version: "2.0"
+services:
+ scavenger-hunt-3:
+  build: .
+  ports:
+  - "22"
+  hostname: "scavenger-hunt-3"
