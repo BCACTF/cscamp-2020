@@ -15,6 +15,7 @@ Webex
 ## Hints
 * I had to **inject** some capital letters into this word: **S**e**Q**ue**L**
 * Try searching up things like `sql ctf` on Google.
+* This problem is not solvable using Inspect Element.
 
 ## Downloads
 None.
