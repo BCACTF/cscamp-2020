@@ -1,5 +1,5 @@
 # login 1
-Welcome™ to our Secure™ Login™ Page™! With our speedy JavaScriptLogin™ technology, We™ Assure™ you that our Page™ is Secure™ enough to prevent you from logging in as the `admin` user.
+Welcome™ to our Secure™ Login™ Page™! With our Speedy5000™ JavaScriptLogin™ technology, We™ Assure™ you that our Page™ is Secure™ enough to prevent you from logging in as the `admin` user.
 
 ## Flag
 ```
