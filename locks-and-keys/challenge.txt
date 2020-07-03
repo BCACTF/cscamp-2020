@@ -1,0 +1,9 @@
+Problem name: locks and keys
+Problem Description: This guy over here [insert image] gave me a key [insert key] and told me to try cracking his ciphered message but I need some help. I can’t seem to figure it out.
+Flag: camp{aW_thAnKS_pENeL}
+Points: 100
+Category: Cryptography
+Hints: We gave you an image. Do you know who it is (ask Google for help)?
+Files to download: guy.jpg, key.txt, cipheredMessage.txt
+Name: Sarah & Penelope
+Write-Up: Use a vigenere cipher online with the given key and ciphertext to get the flag
