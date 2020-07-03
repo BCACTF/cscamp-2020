@@ -13,8 +13,8 @@ camp{sql_1nj3ct10n_1s_quite_nice_txWks8wC}
 Webex
 
 ## Hints
-* Try poking around in the web inspector and see if you can find something new.
-* What's JavaScript? Where can you find it in HTML?
+* I had to **inject** some capital letters into this word: **S**e**Q**ue**L**
+* Try searching up things like `sql ctf` on Google.
 
 ## Downloads
 None.
