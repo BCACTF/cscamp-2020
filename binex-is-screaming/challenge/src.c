@@ -16,6 +16,7 @@ int main(void)
 
     if (check != 0) {
         // Secret shell, users shouldn't be able to access this.
+        puts("Activating secret shell...");
         system("/bin/sh");
     }
 }

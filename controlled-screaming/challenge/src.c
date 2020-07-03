@@ -19,6 +19,6 @@ int main(void)
         puts("Haha, literally unreachable. Fools.");
         system("/bin/sh");
     } else {
-        printf("See? The check is only 0x%08x. You'll never get in!\n", check);
+        printf("See? The check is only 0x%08lx. You'll never get in!\n", check);
     }
 }
