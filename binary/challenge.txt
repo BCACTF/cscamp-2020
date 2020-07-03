@@ -1,0 +1,11 @@
+Problem name: binary
+Problem Description: We got a message from aliens last night, but they seem to only speak in 0’s and 1’s. We need an interpreter fast XOR they’ll eat us.
+Flag: camp{nom_nom}
+Points: 100
+Category: Cryptography
+Hint 1: XOR?  What’s that?  A typo…? Or maybe something more?
+Hint 2: Did you get the XOR? How about we try changing that into a more Standard Code for Information Interchange?
+Hint 3: We found a translator but we’re not too sure how to use it. Here, why don’t you give it a try: http://xor.pw/# 
+Files to download: alienMessage.txt
+Name: Sarah & Penel
+Write-Up: XOR the two binary numbers and then use any binary to ASCII translator to get the flag
