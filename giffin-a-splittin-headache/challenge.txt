@@ -1,0 +1,10 @@
+Problem name: giffin a splittin’ headache
+Problem Description: My computer wallpaper used to be a picture of Sarah, but my brother switched it to this random gif.  He says he won’t switch it back until I find the secret message in his image.  Can you help me?
+Flag: camp{5crubb3rS_s4v3_L1v35}
+Points: 50
+Category: Forensics
+Hint 1: Ugh, the gif switches so quickly.  If only there were a way to split the frames
+Hint 2: Gif scrubbers and gif splicers are wonderful things.  Maybe there’s an online tool that could help you out 
+Files to download: wallpaper.gif
+Name: Sarah & Penel
+Write-Up: Split the gif into its 3 original images using a scrubber, and then pass it through any online QR code scanner to get the 3 parts of the flag.  String the 3 pieces together to get the full flag.
