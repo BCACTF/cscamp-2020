@@ -1,0 +1,14 @@
+{
+  "name": "login-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "koa": "^2.13.0",
+    "sqlite3": "^5.0.0"
+  }
+}
