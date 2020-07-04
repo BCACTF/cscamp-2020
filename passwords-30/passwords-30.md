@@ -9,7 +9,7 @@ camp{b1t-sh4f71ng-f4ncy-up94}
 # Category
 Reversing
 # Hints
-What is bit shifting
+What is bit shifting?
 # List of files the player should be allowed to download
 Passwords30.java
 # Any steps for deployment (compilation instructions, etc.)
