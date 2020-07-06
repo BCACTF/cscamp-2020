@@ -27,7 +27,8 @@ Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in 
 * `LOGIN2_PORT` - desired port to listen to
 
 ## Solution
-TBD.
+1. The problem description and hints strongly hint at a possible SQLi vulnerability, so enter `' OR 1=1--` as the username and a dummy value in the password field.
+2. Get the flag.
 
 ## Author
 Anthony Li
