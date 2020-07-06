@@ -27,6 +27,6 @@ This includes:
 * etc.
 
 When you have a problem, just submit a pull request with the problem name.
-Then, add the category as a label.
+Make sure to add the category and milestone.
 
 Thanks! -ed
