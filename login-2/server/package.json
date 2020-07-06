@@ -9,6 +9,7 @@
   "dependencies": {
     "handlebars": "^4.7.6",
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
     "sqlite3": "^5.0.0"
   }
 }
