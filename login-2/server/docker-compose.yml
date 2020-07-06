@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    ports:
+      - 1337
+    environment:
+      LOGIN2_FLAG: "camp{sql_1nj3ct10n_1s_quite_nice_txWks8wC}"
+      LOGIN2_PASSWORD: uqhreo8quyr9uqwyeroiusaydfouahsdouqwyoruyqn239487214riuyhsandoifuhqoidruhyasdlifuhaskdjfb
