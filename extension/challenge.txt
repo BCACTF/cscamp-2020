@@ -1,0 +1,10 @@
+Problem name: extension
+Problem Description: My teacher gave me an extension on this project, but I think I broke the project file.  Can you help me?
+Flag: camp{APP34R4nc3S_C4n_b3_d3C31V1ng}
+Points: 150
+Category: Forensics
+Hint 1: .txt files aren’t the only types of files out there.  If only there were a way to check file types… 
+Hint 2: I don’t think this is the right file type.  Is there a way to change it?  Maybe the name of the challenge can help
+Files to download: project.txt
+Name: Sarah & Penel
+Write-Up: It’ll look like a text file, but it’s actually an image (so extension needs to be changed to .png)
