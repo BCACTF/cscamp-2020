@@ -1,5 +1,5 @@
 # Find me!
-What starts with a lowercase letter, ends with 2021, and has four uppercase letters in between?
+Prompt
 
 ## Flag
 ```
