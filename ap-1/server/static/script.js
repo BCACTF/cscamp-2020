@@ -85,7 +85,8 @@ function populateQuestions(questions) {
 function submitExam() {
     const answers = [];
     for (let i = 0; i < numQuestions; i++) {
-        answers.push(document.querySelector(`input[name="question-${i}"]`).value);
+        const checked = Array.from(document.querySelectorAll(`input[name="question-${i}"]`)).find(r => r.checked);
+        answers.push(checked ? checked.value : null);
     }
 
     console.log(answers);

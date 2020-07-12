@@ -72,7 +72,7 @@ app.post("/totally/innocuous/api/check", (req, res) => {
     }
 
     const correct = req.body.answers.map((answer, index) => answer === questions[index].response.correct);
-    const score = req.body.answers.reduce((acc, val) => acc + (val ? 1 : 0), 0);
+    const score = correct.reduce((acc, val) => acc + (val ? 1 : 0), 0);
     if (score >= questions.length) {
         res.json({ok: true, score, correct, flag: process.env.APH1_FLAG ? {earned: true, configured: true, flag: process.env.APH1_FLAG} : {earned: true, configured: false}});
     } else {
