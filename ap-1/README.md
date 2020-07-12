@@ -31,3 +31,4 @@ Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in 
 
 ## Author
 Anthony Li
+College Board logo from: pinclipart.com
