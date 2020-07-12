@@ -30,7 +30,7 @@ const questions = [
         description: "Attribution: tapintoteenminds.com. Sidenote: I don't think they understand teens.",
         response: {
             type: "multipleChoice",
-            choices: ["-1", "20", "-1"],
+            choices: ["-1", "20", "1337"],
             correct: "20"
         }
     },
