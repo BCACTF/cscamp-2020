@@ -1,7 +1,7 @@
 Problem name: scavenger-hunt-1
 Problem Description: My hacker brother stole my computer and hide the flag! He loves using periods for some reason. Help me find the hidden flag.
 Flag: camp{hArd_w0Rk_paY5_0ff}
-Points: 100
+Points: 200
 Category: Misc
 Hint 1: How do you make a file hidden?
 Name: Jeremy

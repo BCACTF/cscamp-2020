@@ -1,7 +1,7 @@
 Problem name: scavenger-hunt-2
 Problem Description: Man I love cd's just the way they look and can be typed... Wait, while your here help me find the flag again please.
 Flag: camp{i_L0ve_c0MputerSciEnce}
-Points: 50
+Points: 150
 Category: Misc
 Hint 1: What does cd do in a terminal?
 Name: Jeremy

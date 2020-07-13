@@ -11,7 +11,7 @@ But before we get ahead of ourselves, let's start simple: just running a program
 camp{Ex3cu7iNg_b1n4ri35_l1k3_4_pR0}
 
 ## Points
-25
+50
 
 ## Category
 Binary Exploitation

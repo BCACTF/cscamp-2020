@@ -7,9 +7,9 @@ Can you find the ***third*** flag?
 # Flag (camp{...} format)
 camp{th1rd-woww_qrl3762}
 # Point value (use pico scale, will be rebalanced later)
-200
+300
 # Category
-Reversing
+Forensics
 # Hints
 What is a word search?
 # List of files the player should be allowed to download

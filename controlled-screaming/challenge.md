@@ -11,7 +11,7 @@ Heh, people can't just blindly enter "AAAAA" now!
 camp{pl34s3_u53_y0uR_1nd00r_v01c3s}
 
 ## Points
-200
+250
 
 ## Category
 Binary Exploitation
