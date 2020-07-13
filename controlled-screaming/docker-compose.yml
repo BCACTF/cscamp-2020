@@ -1,6 +1,6 @@
 version: "2.0"
 services:
-    pwn:
-        build: .
-        ports:
-        - "9999"
+  pwn:
+    build: .
+    ports:
+      - 9999
