@@ -87,7 +87,7 @@ function submitExam() {
     for (let i = 0; i < numQuestions; i++) {
         const fields = Array.from(document.querySelectorAll(`input[name="question-${i}"]`));
         if (fields[0].type === "radio") {
-            const checked = .find(r => r.checked);
+            const checked = fields.find(r => r.checked);
             answers.push(checked ? checked.value : null);
         } else {
             answers.push(fields[0].value);
