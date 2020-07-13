@@ -45,7 +45,7 @@ function populateQuestions(questions) {
         const response = document.createElement("div");
         response.classList.add("response");
 
-        if (question.response.type === "multipleChoice") {            
+        if (question.response.type === "multipleChoice") {
             question.response.choices.forEach((choice, choiceIndex) => {
                 const div = document.createElement("div");
                 div.classList.add("form-check");
