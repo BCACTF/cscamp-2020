@@ -2,8 +2,15 @@ version: "2.0"
 services:
   web:
     build: .
-    ports:
-      - 1337
     environment:
       LOGIN1_FLAG: "camp{client_side_is_a_terrible_idea_Fw9dgptH}"
       LOGIN1_PASSWORD: thisisaverysecurepasswordhahaaaaaa
+  proxy:
+    image: nginx
+    ports:
+      - 443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web
