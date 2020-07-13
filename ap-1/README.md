@@ -7,7 +7,7 @@ camp{ajax_h4x0r_EBb2h29uqvvzBKsSYYWF3ALe}
 ```
 
 ## Points
-150
+200
 
 ## Category
 Webex
