@@ -7,9 +7,9 @@ Can you find the *second* flag?
 # Flag (camp{...} format)
 camp{s3cnd-sol!_56i3wv2}
 # Point value (use pico scale, will be rebalanced later)
-150
+200
 # Category
-Reversing
+Forensics
 # Hints
 What is a word search?
 # List of files the player should be allowed to download

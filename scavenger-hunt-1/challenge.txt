@@ -1,7 +1,7 @@
 Problem name: scavenger-hunt-1
 Problem Description: My favorite animal is a Cat and my favorite league of legends streamer is Ls! Wait, help me find the flag!
 Flag: camp{l3ague_oF_l3G3nds_C00l}
-Points: 50
+Points: 100
 Category: Misc
 Hint 1: What do ls and cat even do?
 Name: Jeremy

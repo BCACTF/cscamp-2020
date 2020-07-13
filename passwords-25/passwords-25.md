@@ -5,7 +5,7 @@ So if integer arrays are too easy, maybe I should combine my integers into one b
 # Flag (camp{...} format)
 camp{c0mb1ne-l1k3-t3rms-kb563e7u}
 # Point value (use pico scale, will be rebalanced later)
-150
+250
 # Category
 Reversing
 # Hints

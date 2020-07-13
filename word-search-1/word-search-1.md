@@ -7,9 +7,9 @@ Can you find the flag?
 # Flag (camp{...} format)
 camp{f1r5t-s0ln_3xcex01}
 # Point value (use pico scale, will be rebalanced later)
-50
+100
 # Category
-Reversing
+Forensics
 # Hints
 What is a regex?
 How do you search using regex?

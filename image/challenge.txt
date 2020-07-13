@@ -1,7 +1,7 @@
 Problem name: image
 Problem Description: Penelope texted me this image but I can’t help but think there’s something more to it. I tried looking at the image but I don’t see anything wrong with it. Surely Penelope wouldn’t just send me a picture of a flower…
 Flag: camp{u5E_7Ex7_eD170rS!}
-Points: 50
+Points: 100
 Category: Forensics
 Hint 1: I looked at the image but I couldn’t find anything. Perhaps there’s something inside the image?
 Hint 2: Try opening the image in notepad ;)

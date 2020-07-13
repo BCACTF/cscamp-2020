@@ -5,7 +5,7 @@ I've heard bit shifting preserves information, so I should be able to make my pa
 # Flag (camp{...} format)
 camp{b1t-sh4f71ng-f4ncy-up94}
 # Point value (use pico scale, will be rebalanced later)
-150
+250
 # Category
 Reversing
 # Hints

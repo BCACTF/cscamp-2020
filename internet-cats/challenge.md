@@ -11,7 +11,7 @@ If you just want to show raw text, there are programs that will do that, such as
 camp{c4t5_rUN_d3_1n7erW3bZ}
 
 ## Points
-25
+50
 
 ## Category
 Miscellaneous

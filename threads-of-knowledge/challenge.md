@@ -10,7 +10,7 @@ It's still there, you'll just need to find a way to get it out.
 camp{53cRe7s_h1dd3N_1n_7he_b1n4Ry}
 
 ## Points
-50
+100
 
 ## Category
 Binary Exploitation

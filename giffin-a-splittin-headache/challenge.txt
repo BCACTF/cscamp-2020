@@ -1,7 +1,7 @@
 Problem name: giffin a splittin’ headache
 Problem Description: My computer wallpaper used to be a picture of Sarah, but my brother switched it to this random gif.  He says he won’t switch it back until I find the secret message in his image.  Can you help me?
 Flag: camp{5crubb3rS_s4v3_L1v35}
-Points: 50
+Points: 100
 Category: Forensics
 Hint 1: Ugh, the gif switches so quickly.  If only there were a way to split the frames
 Hint 2: Gif scrubbers and gif splicers are wonderful things.  Maybe there’s an online tool that could help you out 
