@@ -2,8 +2,6 @@ version: "2.0"
 services:
   web:
     build: .
-  proxy:
-    image: nginx
     ports:
       - 443
     volumes:
