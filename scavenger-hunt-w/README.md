@@ -3,7 +3,7 @@ Ooh I found this cool piece of tech news! Check the link below:
 <a href="https://cscamp-2020-windows11.vercel.app" style="color: transparent;">Tech news!</a>
 
 ## Flag
-TBD
+`camp{pUrrf3ct1oñ_9qNu}`
 
 ## Points
 150
