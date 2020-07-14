@@ -7,4 +7,4 @@ RUN useradd -m ctf
 WORKDIR /home/ctf
 
 COPY . /home/ctf/
-RUN gcc src.c -o the-executor
+RUN gcc src.c -o threads-of-knowledge
