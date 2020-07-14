@@ -1,0 +1,3 @@
+include "lib/std.wsa"
+
+prints "camp{      _2eksa38X}"
