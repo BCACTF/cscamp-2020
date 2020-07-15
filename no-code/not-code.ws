@@ -1,6 +1,6 @@
 There is nothing here!
-Nothing you can run in an					 	
-online interpreter.  	 		   
+Nothing that you can go and					 	
+interpret online.  	 		   
    			   
    		  		
    		    	
