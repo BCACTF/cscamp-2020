@@ -3,7 +3,7 @@ Devin gave me this strange file. He says it's the best code he's ever written.
 
 ## Flag
 ```
-camp{      _2eksa38X}
+camp{imagine_if_the_flag_had_a_bunch_of_spaces_2eksa38X}
 ```
 
 ## Points
@@ -13,6 +13,7 @@ camp{      _2eksa38X}
 Misc
 
 ## Hints
+* What else is in the file, other than the haiku?
 * Hm, if only these characters were some sort of programming language...
 * What's that? Spaces and tabs? Programming language? Maybe Google it.
 
