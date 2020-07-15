@@ -3,4 +3,4 @@ services:
   pwn:
     build: .
     ports:
-      - 9999
+      - 10004:9999

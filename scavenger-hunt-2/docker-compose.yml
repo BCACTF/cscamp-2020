@@ -3,5 +3,5 @@ services:
   ssh:
     build: .
     ports:
-      - 22
+      - "30002:22"
     hostname: "scavenger-hunt-2"
