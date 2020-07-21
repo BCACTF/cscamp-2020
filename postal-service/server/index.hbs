@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Generic Postal Service</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    </head>
+    <body>
+        <form method="get">
+            <h1>Generic Package Tracker</h1>
+            {{#if alert}}
+            <div class="alert alert-{{alert.color}}"><span class="sr-only">{{alert.prefix}}: </span>{{alert.content}}</div>
+            {{/if}}
+            <input type="text" name="number" class="form-control" placeholder="Tracking Number" />
+            <div>
+                <input type="submit" class="btn btn-info" value="Track my package!" />
+            </div>
+        </form>
+    </body>
+</html>
