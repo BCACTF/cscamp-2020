@@ -51,7 +51,12 @@ app.use(async ctx => {
                 data.alert = {color: process.env.POSTAL_FLAG ? "success" : "warning", prefix: process.env.POSTAL_FLAG ? "Success" : "Internal Error", content};
             }
         } else if (ctx.method !== "GET" || ctx.query.number !== undefined) {
-            ctx.status = (ctx.method === "GET") ? 400 : 405;
+            ctx.status = 405;
+            if (ctx.query.number === undefined) {
+                ctx.set("Allow", "GET, POST");
+            } else {
+                ctx.set("Allow", "POST");
+            }
             data.alert = {color: "danger", prefix: "Error", content: `This is a POSTal service, not a ${ctx.method}al service.`};
         }
         
