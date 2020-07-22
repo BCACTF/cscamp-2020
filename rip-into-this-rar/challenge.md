@@ -13,7 +13,7 @@ camp{password_dAVEI2021}
 Forensics
 
 ## Hints
-* Jack the Ripper's brother was known for liking cats, specifically hashcats.
+* John the Ripper's brother was known for liking cats, specifically hashcats.
 * Why start from *nothing*, if you already have *something*? (Read the question again!)
 
 ## Downloads

@@ -1,5 +1,5 @@
 # Hidden file
-You have a secret flie?  Don't want anyone to see it?  Easy!  Just hide it!
+You have a secret file?  Don't want anyone to see it?  Easy!  Just hide it!
 
 ## Flag
 ```
