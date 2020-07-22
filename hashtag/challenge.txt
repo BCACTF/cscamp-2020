@@ -1,0 +1,10 @@
+Problem name: hashtag
+Problem Description: Devin the VSCO girl really loves turtles. So he gathered up his scrunchies and his hydro flask for a trip to Sandy Hook Beach to look for them. After all, he really wants to help save them. He found a few turtles washed up on the shore and sat down next to them to make a TikTok. He tagged it with #savetheturtles. The weird thing is, he added another hashtag and put a weird series of letters and numbers next to it. Can you help us figure out what it means?
+Flag: camp{iloveturtles}
+Points: 200
+Category: Cryptography
+Hint 1: As per usual, make sure to pay attention to the name of the problem.
+Hint 2: Hmmm, take a closer look at the pdf. Perhaps there’s something you’re missing.
+Files to download: tiktok.pdf
+Name: Sarah & Penel
+Write-Up: Use any hash decrypter to decrypt the flag, which is in md5.
