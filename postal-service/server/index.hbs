@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Generic Postal Service</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    </head>
+    <body>
+        <form method="get" class="container my-5 px-3">
+            <nav class="navbar navbar-expand navbar-dark bg-primary rounded mb-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">Generic Postal Service</a>
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Track Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:alert('No');">Request a Refund</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Half-Working Package Tracker</h1>
+            <p class="mb-3">Track your packages with our 100% brand new, organic app, powered by HTTP's methods.</p>
+            {{#if alert}}
+            <div class="alert alert-{{alert.color}}"><span class="sr-only">{{alert.prefix}}: </span>{{alert.content}}</div>
+            {{/if}}
+            <input type="text" name="number" class="form-control mb-3" placeholder="Tracking Number" />
+            <div>
+                <input type="submit" class="btn btn-info" value="Track my package!" />
+            </div>
+        </form>
+    </body>
+</html>

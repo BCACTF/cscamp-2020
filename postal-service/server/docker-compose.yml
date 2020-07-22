@@ -1,0 +1,16 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      POSTAL_FLAG: "camp{h0w_m3th0d1cal_4hdy35c}"
+      POSTAL_NUMBER: "1234"
+  proxy:
+    image: nginx
+    ports:
+      - 20006:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web

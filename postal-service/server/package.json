@@ -1,0 +1,11 @@
+{
+  "name": "postal-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0"
+  }
+}
