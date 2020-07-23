@@ -9,9 +9,10 @@ camp{its-l1ke-0r-bu7-EXTREME-4jx3}
 # Category
 Reversing
 # Hints
-What's XOR?
+What is XOR?
+How do you XOR in Java?
 # List of files the player should be allowed to download
-Passwords35.java
+Passwords40.java
 # Any steps for deployment (compilation instructions, etc.)
 Literally nothing, just upload the file. It doesn't even need to be ran.
 # Your name!
@@ -20,5 +21,5 @@ Erez Israeli Miller
 Possible solve paths:
 1. Literally just write the code in reverse
 2. Just run the code, stick in the expected output in, and add a print statement
-3. Manually XOR shift each character with ASCII
+3. Manually XOR each character with ASCII
 
