@@ -30,3 +30,5 @@ FlagJS.getFlag("ctf")
 
 ## Author
 Anthony Li
+
+[JavaScript obfuscator](https://obfuscator.io)
