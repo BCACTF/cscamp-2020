@@ -10,6 +10,7 @@ camp{cmprs-evrythng-nd-mnmz-vwls-or-just-use-chinese??-3bgi}
 Reversing
 # Hints
 It may not look like it, but this problem is very similar to Passwords 2.5 and 3.0. Try solving all previous Passwords problems before this one.
+How are Chinese characters stored in text? What does the `\u` in the String mean?
 # List of files the player should be allowed to download
 Passwords35.java
 # Any steps for deployment (compilation instructions, etc.)
