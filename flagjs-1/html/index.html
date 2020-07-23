@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Flag.js v1.0</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" href="prism.css" />
+    </head>
+    <body>
+        <div class="container my-5 px-3">
+            <div class="bg-secondary rounded p-5 mb-3 text-white">
+                <h1>Flag.js <small class="text-white-50">v1.0</small></h1>
+                <p class="lead">Simply the world's best JavaScript library</p>
+            </div>
+            <p>Flag.js makes it easy to obtain flags. Simply drop the file into your HTML file, make a single function call, and get a flag. It's really easy, and we can't wait for you to try it.</p>
+            <h2 class="mt-5">Getting Started</h2>
+            <ul class="text-black-50">
+                <li>Download link coming soon!</li>
+                <li>Deobfuscated library coming soon!</li>
+                <li>Minified version coming soon!</li>
+                <li>npm package coming soon!</li>
+            </ul>
+            <p>Get started by trying out the library on this page. That's right, a full version of the library is right on the page you're browsing right now! If only there was a way you could run JavaScript to get to it...</p>
+            <h2 class="mt-5">Developer Reference</h2>
+            <h3>FlagJS</h3>
+            <p>Flag.js's functionality is conveniently located in a global object named <code>FlagJS</code>.</p>
+            <h4 class="mt-4"><code class="language-js">FlagJS.getFlag</code></h4>
+            <pre><code class="language-ts">function getFlag(flagName: string): string | undefined</code></pre>
+            <p>This function returns a flag for the provided flag name.</p>
+            <h5 class="mt-3">Parameters</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <th scope="row"><code>flagName</code></th>
+                        <td>
+                            <p class="m-0">The name of the flag to retrieve. Possible flags include:</p>
+                            <ul class="m-0">
+                                <li><code>"black"</code></li>
+                                <li><code>"chequered"</code></li>
+                                <li><code>"crossed"</code></li>
+                                <li><code>"ctf"</code></li>
+                                <li><code>"inHole"</code></li>
+                                <li><code>"pirate"</code></li>
+                                <li><code>"rainbow"</code></li>
+                                <li><code>"transgender"</code></li>
+                                <li><code>"triangular"</code></li>
+                                <li><code>"white"</code></li>
+                            </ul>
+                            <p><em>Note: Some flags may appear incorrectly on older operating systems.</em></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5 class="mt-3">Returns</h5>
+            <p>The flag, or <code>undefined</code> if <code>flagName</code> was not found.</p>
+            <h5 class="mt-3">Example</h5>
+            <pre>
+                <code class="language-js">FlagJS.getFlag("black") // Returns 🏴</code>
+            </pre>
+        </div>
+        
+        <!-- Obfuscated library -->
+        <script src="flag-obfuscated.js"></script>
+
+        <!-- SyNtAx HiGhLiGhTiNg -->
+        <script src="prism.js"></script>
+    </body>
+</html>
