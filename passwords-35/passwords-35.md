@@ -17,8 +17,5 @@ Literally nothing, just upload the file. It doesn't even need to be ran.
 # Your name!
 Erez Israeli Miller
 # Intended solvepath
-Possible solve paths:
-1. Literally just write the code in reverse
-2. Just run the code, stick in the expected output in, and add a print statement
-3. Manually XOR shift each character with ASCII
+The solution to this problem is almost identical to 2.5. Converting each char to an int, separating the characters as was done in 2.5, then recombining into a string will solve the problem. The difference is that here we use bit shifting instead of multiplication my a power of two, but bit shifting was covered in 3.0.
 
