@@ -1,0 +1,15 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      APH2_FLAG: "camp{ajax_h4x0r_EBb2h29uqvvzBKsSYYWF3ALe}"
+  proxy:
+    image: nginx
+    ports:
+      - 20004:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web

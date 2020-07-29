@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AP GraphQL</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar bg-white border-bottom fixed-top">
+            <h3 class="navbar-brand">AP 1984 Exam</h3>
+        </nav>
+
+        <div id="intro">
+            <h1 class="logo">
+                <img src="https://www.pinclipart.com/picdir/big/101-1011446_teen-center-sat-600600-college-board-acorn.png" />
+                <span>UniversityPlank</span>
+            </h1>
+            <h2>AP GraphQL Exam</h2>
+            <p>You will have 10 minutes to complete 6 questions. Time starts when you click the button.</p>
+            <p class="text-secondary"><small>In case you're from the actual College Board: This is a parody, quite obviously.</small></p>
+            <noscript><p class="text-danger"><strong>You need JavaScript to take this exam.</strong></p></noscript>
+            <p><a href="#" id="start-button" class="btn btn-warning">Start</a></p>
+        </div>
+
+        <div id="exam" class="border-top">
+            <form id="questions"></form>
+            <div class="test-footer bg-white fixed-bottom">
+                <div class="border-top border-bottom">
+                    <div>Time Left to Submit Work</div>
+                    <div id="timer" class="text-danger">10:00</div>
+                </div>
+                <div>
+                    <a href="#" id="submit-button" class="btn btn-warning">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="completion">
+            <h2>AP GraphQL Exam</h2>
+
+            <p>Refresh the page to retake this exam.</p>
+
+            <h3>Congratulations! Your AP Exam Is Complete</h3>
+
+            <h4>Your Exam Scores Are Coming</h4>
+            <p>AP Exam scores are released in mid-July of 2100. We'll email you the details about how much the scores will cost (hint: a lot!)</p>
+            <p>In the meantime, visit <a href="https://www.youtube.com/watch?v=ub82Xb1C8os" target="_blank">My AP</a> in the next 1 nanosecond to select your free score recipient.</p>
+
+            <h4>What Are our College Plans?</h4>
+            <ul>
+                <li><strong>Class of 2020</strong>: <a href="https://www.youtube.com/watch?v=ub82Xb1C8os" target="_blank">Post an Instagram video</a> about your college plans for a chance to earn $5,000.</li>
+                <li><strong>Class of 2021</strong>: <a href="https://www.youtube.com/watch?v=ub82Xb1C8os" target="_blank">College Board Opportunity Scholarships</a> guide you through the college planning process with a chance to earn up to $40,000.</li>
+                <li><strong>Classes of 2022 and '23</strong>: What kind of college is right for you? Go to <a href="https://www.youtube.com/watch?v=ub82Xb1C8os" target="_blank">BigFuture</a> and start building your college list.</li>
+                <li><strong>Class of 2024</strong>: <a href="https://www.youtube.com/watch?v=-b_ueav0YmY" target="_blank">For some reason the actual CollegeBoard left you out on this page.</a> It's okay I'm sure the College Board will find some way to charge you.</li>
+            </ul>
+
+            <h4>How Was Your Exam Experience?</h4>
+            <p>Did you have any issues submitting your work? If so, don't worry - you can experience the same issues in your <a href="https://www.youtube.com/watch?v=ub82Xb1C8os" target="_blank">makeup exam</a>.</p>
+            <p>This is our first year delivering AP Exams online. How did we do? Evidently, we're trash at scaling <em>anything</em> online.</p>
+
+            <div class="test-footer fixed-bottom">
+                <div class="lead bg-primary text-white" id="score-data">There is no data on your score yet. Taking the exam would be a good idea.</div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
