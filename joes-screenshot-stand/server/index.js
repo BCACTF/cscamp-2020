@@ -6,6 +6,21 @@ const rateLimit = require("express-rate-limit");
 const app = new Express();
 app.use(urlencoded({extended: false}));
 
+const token = process.env.JSS_TOKEN || "asdfishsbcvjhq47y28eiywgfbhzjsdncvq934890wurfijh";
+
+const defaultFlag = "This problem is misconfigured. Please contact CS Camp CTF staff.";
+if (!process.env.JSS_FLAG) {
+    console.error("JSS_FLAG environment variable not set. Flag set to \"" + defaultFlag + "\".");
+}
+
+app.get("/flag.txt", (req, res) => {
+    if (req.get("X-CTF-Token") !== token) {
+        return res.status(403).send("You must be Joe to access the flag.");
+    } else {
+        return res.send(process.env.JSS_FLAG || defaultFlag);
+    }
+});
+
 let browser;
 
 const windowMs = process.env.JSS_RATELIMIT_WINDOW || 60000;
@@ -27,9 +42,10 @@ app.post("/screenshot", async (req, res) => {
     try {
         page = await browser.newPage();
         await page.setViewport({width: 1280, height: 720});
+        await page.setExtraHTTPHeaders({"X-CTF-Token": token});
         let takeScreenshot = false;
         try {
-            await page.goto(req.body.url, {timeout: process.env.JSS_TIMEOUT || 2000});
+            await page.goto(req.body.url, {timeout: process.env.JSS_TIMEOUT || 5000});
             takeScreenshot = true;
         } catch (e) {
             console.error(e);
