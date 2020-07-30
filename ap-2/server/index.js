@@ -59,7 +59,7 @@ const resolvers = {
     }
 };
 
-const server = new ApolloServer({typeDefs, resolvers});
+const server = new ApolloServer({typeDefs, resolvers, introspection: true, playground: true});
 server.applyMiddleware({app});
 
 app.use(Express.static("static"));

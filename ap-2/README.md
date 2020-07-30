@@ -29,7 +29,7 @@ Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in 
 
 ## Solution
 1. Looking at `script.js` or at the Network tab of the Web Inspector reveals that the site fetches the test questions from a GraphQL endpoint.
-2. Going to this API endpoint yields a GraphQL playground with a schema.
+2. Browsing to `/graphql` yields a GraphQL playground with a schema.
 3. Entering this query gives the yields the correct answers, which can then be plugged into the test to obtain the flag.
    ```graphql
    {
