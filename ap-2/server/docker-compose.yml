@@ -3,7 +3,7 @@ services:
   web:
     build: .
     environment:
-      APH2_FLAG: "camp{ajax_h4x0r_EBb2h29uqvvzBKsSYYWF3ALe}"
+      APH2_FLAG: "camp{1ntr0sp3c10n_yXLw7nXa2zNvX5Nd}"
   proxy:
     image: nginx
     ports:
