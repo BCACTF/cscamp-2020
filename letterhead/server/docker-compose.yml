@@ -1,0 +1,15 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      LH_FLAG: "camp{n0t_5p4m_22FF3KAdbRuHdPt2}"
+  proxy:
+    image: nginx
+    ports:
+      - 20004:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web
