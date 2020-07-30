@@ -26,7 +26,7 @@ Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in 
 * `LH_FLAG` - the flag
 * `LH_PORT` - desired port to listen to, default `1337`
 
-**IMPORTANT:** Direct participants to visit `/letter.txt` not `/`. Visiting `/` will result in a 404 error.
+**IMPORTANT:** Direct participants to visit `/letter.txt`, not `/`. Visiting `/` will result in a 404 error.
 
 ## Solution
 The description and hints strongly suggest that the flag is located within the HTTP headers.
