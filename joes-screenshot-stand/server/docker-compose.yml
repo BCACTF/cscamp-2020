@@ -4,6 +4,7 @@ services:
     build: .
     environment:
       JSS_FLAG: "camp{the_duck_walked_up_to_the_screenshot_stand_103296864}"
+      JSS_DEPLOYMENT_HACK: 1
     storage_opt:
       size: '1G'
   proxy:
