@@ -73,6 +73,6 @@ app.post("/screenshot", async (req, res) => {
 app.use(Express.static("static"));
 
 (async () => {
-    browser = await puppeteer.launch({args: ["--incognito"]});
+    browser = await puppeteer.launch({args: ["--incognito", "--no-sandbox"]});
     app.listen(process.env.JSS_PORT || process.env.PORT || 1337);
 })();
