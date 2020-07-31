@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: saddlebrown;
+    font-family: "Comic Neue", "Comic Sans MS", sans-serif;
+    padding: 16px;
+    font-size: 18px;
+}
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: lightyellow;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    padding: 48px 16px;
+    box-shadow: 5px 100px 100px red;
+    transform: rotate(2deg);
+}
+
+p {
+    margin-bottom: 32px;
+}
+
+marquee {
+    background-color: yellow;
+    margin-bottom: 32px;
+    filter: blur(1px);
+}
+
+.input-group input {
+    display: block;
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    height: 32px;
+    padding-left: 8px;
+    background-color: white;
+    color: saddlebrown;
+    border: 3px solid sandybrown;
+    font-size: 1rem;
+}
+
+.input-group input:focus {
+    background-color: saddlebrown;
+    color: white;
+}
+
+input {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    border: none;
+    height: 48px;
+    display: block;
+    border-radius: 24px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 24px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: dodgerblue;
+    border: 10px solid dodgerblue;
+    filter: blur(10px);
+}

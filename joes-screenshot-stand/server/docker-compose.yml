@@ -1,0 +1,16 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      JSS_FLAG: "camp{the_duck_walked_up_to_the_screenshot_stand_103296864}"
+      JSS_DEPLOYMENT_HACK: 1
+  proxy:
+    image: nginx
+    ports:
+      - 20010:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web
