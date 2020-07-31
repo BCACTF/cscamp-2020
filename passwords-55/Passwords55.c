@@ -19,7 +19,7 @@ int main() {
 }
 
 char* xorWord(char* password) {
-	// Comments should be removed by the preprocessor, so I've killed them all >:)
+    // Comments should be removed by the preprocessor, so I've killed them all >:)
     int i;
     password[0] = 25;
     for (i = 1; password[i] != '\0'; i++)
