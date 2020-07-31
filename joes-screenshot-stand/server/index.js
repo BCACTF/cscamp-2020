@@ -17,6 +17,7 @@ app.get("/flag.txt", (req, res) => {
     if (req.get("X-CTF-Token") !== token) {
         return res.status(403).send("You must be Joe to access the flag.");
     } else {
+        console.log("Flag get!");
         return res.send(process.env.JSS_FLAG || defaultFlag);
     }
 });
@@ -24,7 +25,7 @@ app.get("/flag.txt", (req, res) => {
 let browser;
 
 const windowMs = process.env.JSS_RATELIMIT_WINDOW || 60000;
-const max = process.env.JSS_RATELIMIT_MAX || 5;
+const max = process.env.JSS_RATELIMIT_MAX || 3;
 app.post("/screenshot", rateLimit({
     windowMs,
     max,
@@ -72,6 +73,6 @@ app.post("/screenshot", async (req, res) => {
 app.use(Express.static("static"));
 
 (async () => {
-    browser = await puppeteer.launch();
+    browser = await puppeteer.launch({args: ["--incognito"]});
     app.listen(process.env.JSS_PORT || process.env.PORT || 1337);
 })();

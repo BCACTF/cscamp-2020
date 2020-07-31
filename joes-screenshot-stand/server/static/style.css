@@ -23,6 +23,7 @@ body {
     border-bottom-left-radius: 0;
     padding: 48px 16px;
     box-shadow: 5px 100px 100px red;
+    transform: rotate(2deg);
 }
 
 p {
@@ -41,7 +42,6 @@ marquee {
     margin-bottom: 32px;
     border-radius: 16px;
     height: 32px;
-    border: none;
     padding-left: 8px;
     background-color: white;
     color: saddlebrown;
@@ -75,4 +75,5 @@ input[type="submit"]:hover {
     background-color: white;
     color: dodgerblue;
     border: 10px solid dodgerblue;
+    filter: blur(10px);
 }
