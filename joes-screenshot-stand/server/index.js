@@ -40,17 +40,32 @@ app.post("/screenshot", async (req, res) => {
     let buffer;
     let page;
 
+    let url = req.body.url;
+    
+    // HACK: This is a workaround for Docker networking issues.
+    if (process.env.JSS_DEPLOYMENT_HACK) {
+        try {
+            const parsed = new URL(url);
+            if (parsed.hostname === "camp2020.bcactf.com" && parsed.port === "20010") {
+                parsed.protocol = "http";
+                parsed.hostname = "localhost";
+                parsed.port = process.env.JSS_PORT || process.env.PORT || 1337;
+                url = parsed.toString();
+            } 
+        } catch (e) {}
+    }
+
     try {
         page = await browser.newPage();
         await page.setViewport({width: 1280, height: 720});
         await page.setExtraHTTPHeaders({"X-CTF-Token": token});
         let takeScreenshot = false;
         try {
-            await page.goto(req.body.url, {timeout: process.env.JSS_TIMEOUT || 5000});
+            await page.goto(url, {timeout: process.env.JSS_TIMEOUT || 5000});
             takeScreenshot = true;
         } catch (e) {
             console.error(e);
-            res.status(503).send("Page failed to load within 2 seconds.");
+            res.status(503).send("Page failed to load.");
         }
         if (takeScreenshot) {
             buffer = await page.screenshot({});
