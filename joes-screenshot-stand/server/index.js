@@ -41,6 +41,8 @@ app.post("/screenshot", async (req, res) => {
     let page;
 
     let url = req.body.url;
+    
+    // HACK: This is a workaround for Docker networking issues.
     if (process.env.JSS_DEPLOYMENT_HACK) {
         try {
             const parsed = new URL(url);
