@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 char* xorWord(char*);
 
@@ -10,7 +11,7 @@ int main() {
     printf("Linux! GCC! Compilation! Execution! So many fancy words!\n");
     printf("What's my password?\n");
 
-    gets(password + 1);
+    fgets(password + 1, 63, stdin);
 
     if (strcmp(xorWord(password), check) == 0) 
         printf("Here's the secret: Ghidra is an absolutely beautiful program! It turns assembly into C for easy reading!\n");

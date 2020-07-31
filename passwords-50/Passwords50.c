@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 char* xorWord(char*);
 
@@ -13,7 +14,7 @@ int main() {
     printf("What's my password?\n");
 
     // This just stores the user input in the `password` array, _starting at index 1_.
-    gets(password + 1);
+    fgets(password + 1, 31, stdin);
 
     if (strcmp(xorWord(password), check) == 0) // So similar, yet so different...
         printf("Here's the secret: C is just like Java, but only *slightly* scarier!\n");
