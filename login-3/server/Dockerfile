@@ -6,6 +6,7 @@ COPY yarn.lock ./
 RUN yarn install
 
 COPY index.hbs ./
+COPY flag.hbs ./
 COPY index.js ./
 
 EXPOSE 1337
