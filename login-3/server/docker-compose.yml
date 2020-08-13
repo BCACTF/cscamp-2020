@@ -1,0 +1,17 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      LOGIN3_FLAG: "camp{c00k135_1n_th3_3nt3rpr1s3_HJ67tfijk}"
+      LOGIN3_USERNAME: guest
+      LOGIN3_PASSWORD: guest
+  proxy:
+    image: nginx
+    ports:
+      - 20012:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web
