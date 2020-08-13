@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ourbcabus</title>
+    </head>
+    <body>
+        <header>
+            <h1>ourbcabus</h1>
+            <p>It's not my BCA bus, it's not your BCA bus, it's <strong><a href=""><em>our</em> BCA bus</a></strong>.</p>
+        </header>
+        <main>
+            {{#each buses}}
+            <a href="{{url}}">
+                <article>
+                    <h2>{{name}}</h2>
+                    <div>{{location}}</div>
+                </article>
+            </a>
+            {{/each}}
+        </main>
+    </body>
+</html>
