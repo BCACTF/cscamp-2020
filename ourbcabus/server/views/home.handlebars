@@ -3,17 +3,77 @@
     <head>
         <meta charset="utf-8">
         <title>ourbcabus</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-image: linear-gradient(135deg, #770000, #550000);
+                background-size: cover;
+                font-family: Arial;
+            }
+
+            header {
+                background-color: #CD0000;
+                width: 90%;
+                margin: 32px auto;
+                padding: 16px;
+                color: #FFD900;
+            }
+
+            header a {
+                color: white;
+            }
+
+            main {
+                width: 90%;
+                margin: 32px auto;
+            }
+
+            main a {
+                text-decoration: none;
+            }
+
+            article {
+                background-color: white;
+                color: #550000;
+                text-decoration: none;
+                padding: 8px;
+                margin: 8px;
+                transition: background-color 0.2s;
+            }
+
+            article:hover {
+                background-color: #FFD900;
+            }
+
+            div {
+                float: right;
+                position: relative;
+                top: -44px;
+                font-size: 24px;
+                font-weight: bold;
+                padding: 8px 16px;
+                border-radius: 32px;
+                background-color: #CD0000;
+                color: #FFD900;
+            }
+        </style>
     </head>
     <body>
         <header>
             <h1>ourbcabus</h1>
-            <p>It's not my BCA bus, it's not your BCA bus, it's <strong><a href=""><em>our</em> BCA bus</a></strong>.</p>
+            <p>It's not my BCA bus, it's not your BCA bus, it's <strong><a href="https://www.youtube.com/watch?v=U06jlgpMtQs"><em>our</em> BCA bus</a></strong>.</p>
         </header>
         <main>
             {{#each buses}}
             <a href="{{url}}">
                 <article>
                     <h2>{{name}}</h2>
+                    <p>Click for more details</p>
                     <div>{{location}}</div>
                 </article>
             </a>
