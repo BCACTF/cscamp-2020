@@ -34,6 +34,8 @@ Here's what you get when you place both strings in an ASCII85 decoder:
 * Line 12: `BT /F1 16 Tf 100 700 Td (camp{d0n7_4g3t_4b0u7_1nCr3Men74l_uPd473s}) Tj ESû`
 * Line 31: `BT /F1 16 Tf 100 700 Td (The flag is...) Tj ET`
 
+(Alternatively, open the PDF in a reader that doesn't support incremental updates. Such as the Github web interface.)
+
 This problem takes advantage of "incremental updates".
 PDFs are constructed with "objects".
 Both ASCII85 streams are part of an object.
