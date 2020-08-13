@@ -1,0 +1,15 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      OBB_FLAG: "camp{equally_distribute_the_l0c4l_f1l3_1nclus10n_gFSWV2QgvV3XvgGa}"
+  proxy:
+    image: nginx
+    ports:
+      - 20011:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web
