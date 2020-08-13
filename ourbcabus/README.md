@@ -4,7 +4,7 @@ Can you leak `flag.txt`?
 
 ## Flag
 ```
-camp{l0c4l_f1l3_1nclus10n_15_1337_gFSWV2QgvV3XvgGa}
+camp{equally_distribute_the_l0c4l_f1l3_1nclus10n_gFSWV2QgvV3XvgGa}
 ```
 
 ## Points
