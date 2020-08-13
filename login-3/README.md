@@ -1,5 +1,9 @@
 # login 3
-At Parts Limited®, We have improved our Very™ Secure™ ServerSideLogin™ technology to be Enterprise® ready and certified under SOS-404™! That's why We™ call it the Very™ Enterprise® Login™ Page™, already Used™ by Determined™ Enterprise®s such as Generic™ Cookie™ Company™! With™ Very™ Enterprise® Login™ Page™, the Flag™ is only accessible by Admins™!
+We have improved our Very™ Secure™ ServerSideLogin™ technology to be Enterprise® ready and certified for SOS-404™! That's why We™ call it the Very™ Enterprise® Login™ Page™, already Used™ by Determined™ Enterprise®s such as Generic™ Cookie™ Company™! With™ Very™ Enterprise® Login™ Page™, the Flag™ is only accessible by Admins™!
+
+> Very™ Enterprise® helped our IT team pass our SOS-404™ audit with flying colors!
+> 
+> *- John Pesche, CISO, Parts Limited®*
 
 Our™ Very™ Enterprise® Login™ Page™ is so Secure™ that We™ have even provided a Premium™ Guest™ Login™ for you! The Username™ is `guest`, and the Password™ is also `guest`. As you can See™, this is Very™ Secure™!
 
