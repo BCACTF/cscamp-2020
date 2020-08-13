@@ -5,7 +5,7 @@ We have improved our Very™ Secure™ ServerSideLogin™ technology to be Enter
 > 
 > *- John Pesche, CISO, Parts Limited®*
 
-Our™ Very™ Enterprise® Login™ Page™ is so Secure™ that We™ have even provided a Premium™ Guest™ Login™ for you! The Username™ is `guest`, and the Password™ is also `guest`. As you can See™, this is Very™ Secure™!
+Our™ Very™ Enterprise® Login™ Page™ is so Secure™ that We™ have even provided a Premium™ Guest™ Login™ for you! The Username™ is `guest`, and the Password™ is also `guest`. As you can See™, this is Very™ Enterprise® Secure™!
 
 ## Flag
 ```
