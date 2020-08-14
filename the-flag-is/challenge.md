@@ -11,13 +11,15 @@ I'm sure I typed it in!
 camp{d0n7_4g3t_4b0u7_1nCr3Men74l_uPd473s}
 
 ## Points
-150
+250
 
 ## Category
 Forensics
 
 ## Hints
-* Well,
+* Well, I typed in the flag, and *then* I added "The flag is...". Do you think my editor overwrote the flag?
+* What happens when you try to open a PDF in a text editor instead of a PDF viewer?
+* There's a bunch of gibberish. I wonder how I can decode that...
 
 ## Files
 * `the-flag.pdf`
