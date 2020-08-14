@@ -16,7 +16,8 @@ camp{L1nu5_s41d_7h4t_1t_w45_0p3n}
 Forensics
 
 ## Hints
-* What does the `x` in `.docx` stand for? What was wrong with just `.doc`?
+* Microsoft Word used to use a `.doc` extension, but now they use `.docx`. What happened?
+* How does the `.docx` format store data?
 
 ## Compilation
 * `cd open-documents && zip -r open-documents.docx . && cd .. && mv open-documents/*.docx .`
