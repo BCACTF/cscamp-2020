@@ -1,0 +1,1 @@
+print(String("abcdefghijklmnopqrstuvwxyz".shuffled().prefix(26)), terminator: "")
