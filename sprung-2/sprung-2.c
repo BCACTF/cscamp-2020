@@ -12,6 +12,11 @@ int EEEEEEEEEEE();
 
 int main() {
 	char e[128];
+
+    setbuf(stdout, NULL);
+    setbuf(stdin, NULL);
+    setbuf(stderr, NULL);
+
     printf("EEEEEEEEEEEEEEEEEEEEEit's at the beginnings of ends\n");
 	
     fgets(e, 120, stdin);

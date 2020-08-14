@@ -9,6 +9,11 @@ int guessmeharder(int);
 int main() {
 	char howtheydoin[128];
 	int hash;
+
+    setbuf(stdout, NULL);
+    setbuf(stdin, NULL);
+    setbuf(stderr, NULL);
+
     printf("Welcome to BCA's COVID-19 support services.\n");
     printf("For information about the Haphazardly Elucidative Pseudorandom Artifact filters, enter '1'.\n");
 	printf("If you want to know BCA is dealing with COVID-19, enter '2'.\n");
