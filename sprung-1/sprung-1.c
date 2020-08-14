@@ -10,17 +10,17 @@ int main() {
 	char howtheydoin[128];
 	int hash;
 
-    setbuf(stdout, NULL);
-    setbuf(stdin, NULL);
-    setbuf(stderr, NULL);
+	setbuf(stdout, NULL);
+	setbuf(stdin, NULL);
+	setbuf(stderr, NULL);
 
-    printf("Welcome to BCA's COVID-19 support services.\n");
-    printf("For information about the Haphazardly Elucidative Pseudorandom Artifact filters, enter '1'.\n");
+	printf("Welcome to BCA's COVID-19 support services.\n");
+	printf("For information about the Haphazardly Elucidative Pseudorandom Artifact filters, enter '1'.\n");
 	printf("If you want to know BCA is dealing with COVID-19, enter '2'.\n");
 	printf("If you're under a lot of pressure, and you want to tell us how you're doing, enter anything else.\n");
 	
 
-    fgets(howtheydoin, 120, stdin);
+	fgets(howtheydoin, 120, stdin);
 	if (strstr(howtheydoin, "1")) { // Checks if '1' is contained in the input
 		printf("Our top-of-the-line filters mean any random number is guaranteed to be seeded through quantum fluctuations in the very fabric of space.\n");
 		printf("We would never do something as insecure as seeding random number generation with user input. That would cause contamination.\n");
