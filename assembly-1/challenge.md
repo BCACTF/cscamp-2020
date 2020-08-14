@@ -1,5 +1,5 @@
 # Name
-Assmebly 1
+Assembly 1
 
 ## Description
 As you might have figured out by now, `binex` problems are about executable binaries.

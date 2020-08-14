@@ -1,5 +1,5 @@
 # Name
-Assmebly 2
+Assembly 2
 
 ## Description
 It's starting to get exciting!

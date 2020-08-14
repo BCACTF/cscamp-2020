@@ -1,5 +1,5 @@
 # Name
-Assmebly 3
+Assembly 3
 
 ## Description
 You're telling me that code doesn't have to execute?
