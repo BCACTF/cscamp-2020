@@ -3,5 +3,6 @@ services:
   ssh:
     build: .
     ports:
-      - "30006:22"
+      - "30016:22"
     hostname: "scavenger-hunt-6"
+    read_only: true
