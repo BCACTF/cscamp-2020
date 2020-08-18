@@ -22,7 +22,7 @@ COPY challenge /home/ctf/ctf
 RUN echo "cd /home/ctf/ctf" >> /home/ctf/.bashrc
 RUN touch /home/ctf/.hushlogin
 RUN chown -R ctf:ctf /home/ctf
-RUN chmod -w -R /home/ctf
+# RUN chmod -w -R /home/ctf
 
 RUN chmod -x /usr/bin/ssh*
 
