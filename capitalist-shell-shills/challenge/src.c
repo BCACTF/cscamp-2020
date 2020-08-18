@@ -8,6 +8,10 @@ int main()
     int money = 1000;
     int amount;
 
+    setbuf(stdout, NULL);
+    setbuf(stdin, NULL);
+    setbuf(stderr, NULL);
+
     printf("Welcome to America, the land of the free, where anyone can do anything!\n");
     printf("I mean, not everyone can buy my shells, but that's just how capitalism works, right?\n");
     printf("But back to business!\n");
