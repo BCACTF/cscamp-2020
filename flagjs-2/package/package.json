@@ -1,6 +1,6 @@
 {
   "name": "@bcactf/flagjs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "flag.js, a stunning new JavaScript library for a CS Camp CTF problem.",
   "main": "index.js",
   "scripts": {
