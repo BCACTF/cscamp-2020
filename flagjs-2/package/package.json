@@ -1,0 +1,11 @@
+{
+  "name": "@bcactf/flagjs",
+  "version": "2.0.1",
+  "description": "flag.js, a stunning new JavaScript library for a CS Camp CTF problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bcactf",
+  "license": "MIT"
+}
