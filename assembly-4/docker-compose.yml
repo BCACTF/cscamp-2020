@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  pwn:
+    build: .
+    ports:
+      - 10010:9999
