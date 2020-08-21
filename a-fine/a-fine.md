@@ -9,7 +9,7 @@ All I need to do is normalize the flag to my alphabet, encode each character, an
 # Flag (camp{...} format)
 camp{y0u-l1k3-appr0xim8ns-d0nt-y0u?-4bru}
 # Point value (use pico scale, will be rebalanced later)
-350
+400
 # Category
 Crypto
 # Hints
