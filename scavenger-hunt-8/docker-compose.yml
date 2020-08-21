@@ -1,0 +1,7 @@
+version: "2.0"
+services:
+  ssh:
+    build: .
+    ports:
+      - "30018:22"
+    hostname: "scavenger-hunt-8"
