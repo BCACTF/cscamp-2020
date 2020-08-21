@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Very™ Enterprise® Secure™ Login™ Ultimate℠</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <style>
+            h1 {
+                background-image: linear-gradient(135deg, red, orange, yellow, green, blue, purple);
+                font-weight: 800;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation-name: fancy-title;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                font-family: cursive;
+            }
+
+            @keyframes fancy-title {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(2);
+                }
+                
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            body {
+                background-image: linear-gradient(135deg, red, orange, yellow, green, blue, purple);
+                background-repeat: no-repeat;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body class="w-100 h-100">
+        <form method="post" class="container my-5 bg-white rounded py-3 shadow">
+            <h1 class="text-center mb-3">Very™ Enterprise® Secure™ Login™ Ultimate℠</h1>
+            {{#if alert}}
+            <div class="alert alert-{{alert.color}}">{{alert.content}}</div>
+            {{/if}}
+            <input type="text" name="username" class="form-control mb-3" placeholder="Username" required />
+            <input type="password" name="password" class="form-control mb-3" placeholder="Password" required />
+            <div class="text-center">
+                <input type="submit" class="btn btn-primary text-center" value="Log in" />
+            </div>
+        </form>
+    </body>
+</html>
