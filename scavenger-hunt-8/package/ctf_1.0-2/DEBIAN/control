@@ -1,0 +1,8 @@
+Package: ctf
+Version: 1.0-2
+Section: misc
+Priority: extra
+Architecture: amd64
+Maintainer: Edward Feng <edwfen22@bergen.org>
+Description: custom ctf application
+ This program prints out a flag.
