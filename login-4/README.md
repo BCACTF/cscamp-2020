@@ -3,6 +3,8 @@ Very™ Enterprise® Login™ Page™ Ultimate℠. Now® With℠ [RFC 7519](http
 
 Once™ Again™, We™ Have™ Provided™ A™ Premium™ Guest™ Login™ Ultimate℠ For™ You®!℠ The℠ Username™ Is™ `Guest™`, And® The® Password™ Is™ Also® `Guest℠`. As® You® Can® See™, This℠ Is℠ Very™ Enterprise® Secure™ Ultimate℠!
 
+Have™ Fun©!℠
+
 ## Flag
 ```
 camp{CVE-2016-10555_fw4hiI7}

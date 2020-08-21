@@ -107,7 +107,7 @@ app.use(async ctx => {
             }
         } catch (e) {
             ctx.status = 400;
-            message = `Could not verify your authentication token: ${e.message}. Log in again to obtain a fresh token.`;
+            message = `Could not verify your authentication token due to an error: ${e.message}. Log in again to obtain a fresh token.`;
         }
 
         ctx.type = "text/html";
