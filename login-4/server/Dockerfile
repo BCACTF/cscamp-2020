@@ -5,9 +5,7 @@ COPY package.json ./
 COPY yarn.lock ./
 RUN yarn install
 
-COPY index.hbs ./
-COPY flag.hbs ./
-COPY index.js ./
+COPY . .
 
 EXPOSE 1337
 
