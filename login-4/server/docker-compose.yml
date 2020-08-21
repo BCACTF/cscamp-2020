@@ -1,0 +1,17 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    environment:
+      LOGIN4_FLAG: "camp{CVE-2016-10555_fw4hiI7}"
+      LOGIN4_USERNAME: "Guest™"
+      LOGIN4_PASSWORD: "Guest℠"
+  proxy:
+    image: nginx
+    ports:
+      - 20013:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /ssl:/etc/ssl
+    depends_on:
+      - web
