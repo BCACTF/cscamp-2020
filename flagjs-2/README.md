@@ -12,7 +12,7 @@ camp{y3t_an0th3r_nodejs_d3pendency_cr672cf}
 ```
 
 ## Points
-250
+200
 
 ## Category
 Webex
