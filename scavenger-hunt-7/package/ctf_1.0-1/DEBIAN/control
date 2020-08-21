@@ -1,0 +1,9 @@
+Package: ctf
+Version: 1.0-1
+Section: misc
+Priority: extra
+Architecture: amd64
+Maintainer: Edward Feng <edwfen22@bergen.org>
+Description: custom ctf application
+ This program prints out a flag.
+ For example, camp{4pt_g3t_1s_0u7d4teD_us3_4pt_1n5t3aD}.
