@@ -18,8 +18,9 @@ Binary Exploitation
 
 ## Hints
 * This is a reminder that your target is the `x86-64` platform.
+* You want code that will get you a shell... would that be "shellcode"?
+* Why bother writing code if it's probably already been done before? Maybe someone's even uploaded some to a database?
 * Machine code means that you'll have non-printable ASCII characters. How do you type those? One way is by using `pwntools`.
-* Why bother writing code if it's probably already been done before?
 
 ## Compilation
 * `gcc src.c -o assembly-4 -z execstack`
