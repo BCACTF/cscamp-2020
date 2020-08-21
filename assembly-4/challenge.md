@@ -11,7 +11,7 @@ This server will execute your machine code, but it's up to you to get a shell (a
 camp{b4ck_1n_mY_d4y_w3_a55eMb1ed_0ur_b1t5_By_h4nD}
 
 ## Points
-450
+400
 
 ## Category
 Binary Exploitation
